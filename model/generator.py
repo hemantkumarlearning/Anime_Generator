@@ -378,14 +378,3 @@ if __name__ == "__main__":
     prob = d(image)
     print(image.size(), prob.size())
 
-# def Generator1():
-#     G = Generator(
-#         image_size=128, image_channels=3, style_dim=512,
-#         channels=32, max_channels=512, block_num_conv=2,
-#         map_num_layers=8, map_lr=0.01
-#     )
-#     return G
-
-# def sampler(num_image):
-#     return torch.randn(num_image, 512)
-

@@ -23,7 +23,8 @@ button  = st.button('Generate Images')
 if button:
     num_images = 15
     input = (sampler(num_images), sampler(num_images))
-    image_tensor,_ = model(input,injection=4)
+    with torch.no_grad():
+        image_tensor,_ = model(input,injection=4)
     pil_images = [tensor_to_pill(img) for img in image_tensor]
     cols = st.columns(5) 
     for i, img in enumerate(pil_images):
