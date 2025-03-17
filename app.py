@@ -5,8 +5,8 @@ import streamlit as st
 from model.model_loader import load_model
 
 
-device = 'cpu'
-model = load_model()
+device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+model = load_model().to(device)
 
 st.title('Anime Face Generator')
 
