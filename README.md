@@ -1,10 +1,15 @@
 # Anime Face Generator Streamlit App
+
 This project demonstrates how to generate anime faces using a pre-trained generator model and its weights, without the need to clone the entire repository or use CUDA. The app uses Streamlit to provide an easy-to-use interface for generating anime faces in real-time. You only need the generator code and the .pt weight file to run the app!
 
 ## Features
+
 - No CUDA Required: Unlike most traditional models, this app does not require a GPU or CUDA support. It runs efficiently on any system with basic hardware.
+  
 - Lightweight: Only the generator and its weights are necessary to generate anime faces.
+  
 - Streamlit UI: A simple, interactive web app built with Streamlit, making it easy to use for generating anime faces.
+  
 - Easy Deployment: Deployed on Streamlit Cloud, making it accessible from anywhere with just a browser.
   
 ## How it Works
