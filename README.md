@@ -2,6 +2,9 @@
 
 This project demonstrates how to generate anime faces using a pre-trained generator model and its weights, without the need to clone the entire repository or use CUDA. I downloaded this generator model and their weight.pt from [here](https://github.com/STomoya/animeface/blob/main/weights.md). The app uses Streamlit to provide an easy-to-use interface for generating anime faces in real-time. You only need the generator code and the .pt weight file to run the app!
 
+![Screenshot 2025-03-18 121911](https://github.com/user-attachments/assets/d618907b-5c83-4848-b5c4-6892aa69a25c)
+
+
 ## Features
 
 - No CUDA Required: Unlike most traditional models, this app does not require a GPU or CUDA support. It runs efficiently on any system with basic hardware.
