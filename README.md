@@ -57,7 +57,6 @@ streamlit run app.py
   
 - Adjust the parameters or press the "Generate" button to create a new anime face image.
   
-- You can save the generated image if you like!
 ## Demo
 
 You can see a live demo of the app deployed on Streamlit Cloud [here](https://animegenerator-3239.streamlit.app/).
