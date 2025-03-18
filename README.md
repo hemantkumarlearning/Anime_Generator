@@ -1,6 +1,6 @@
 # Anime Face Generator Streamlit App
 
-This project demonstrates how to generate anime faces using a pre-trained generator model and its weights, without the need to clone the entire repository or use CUDA. I downloaded this generator model and their weight.pt from here. The app uses Streamlit to provide an easy-to-use interface for generating anime faces in real-time. You only need the generator code and the .pt weight file to run the app!
+This project demonstrates how to generate anime faces using a pre-trained generator model and its weights, without the need to clone the entire repository or use CUDA. I downloaded this generator model and their weight.pt from [here](https://github.com/STomoya/animeface/blob/main/weights.md). The app uses Streamlit to provide an easy-to-use interface for generating anime faces in real-time. You only need the generator code and the .pt weight file to run the app!
 
 ## Features
 
@@ -60,4 +60,4 @@ streamlit run app.py
 - You can save the generated image if you like!
 ## Demo
 
-You can see a live demo of the app deployed on Streamlit Cloud here.
+You can see a live demo of the app deployed on Streamlit Cloud [here](https://animegenerator-3239.streamlit.app/).
