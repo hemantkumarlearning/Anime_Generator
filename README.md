@@ -35,8 +35,8 @@ If you want to run the app locally, here’s how you can set it up:
 1. Clone the repository:
 
 ```
-git clone https://github.com/yourusername/anime-face-generator.git
-cd anime-face-generator
+git clone https://github.com/hemantkumarlearning/Anime_Generator.git
+cd Anime_Generator
 ```
 
 2. Install the required dependencies:
